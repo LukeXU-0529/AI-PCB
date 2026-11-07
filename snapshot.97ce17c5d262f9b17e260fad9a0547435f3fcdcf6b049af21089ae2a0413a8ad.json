@@ -1,0 +1,3630 @@
+{
+  "id": "dashboard:a09aa44a-3e8d-4a31-bf5a-5b5a8e090002",
+  "title": "Fab 与封测 · 产能地理图谱",
+  "subtitle": "公司 → 城市整体 → 基地／项目",
+  "surface": "dashboard",
+  "buildStatus": "complete",
+  "updatedAt": "2026-11-07",
+  "exportPreferences": {
+    "selected": null,
+    "destinations": []
+  },
+  "companies": [
+    "中芯国际",
+    "华虹宏力",
+    "晶合集成",
+    "芯联集成",
+    "华润微",
+    "粤芯半导体",
+    "燕东微",
+    "通富微电",
+    "长电科技",
+    "华天科技",
+    "甬矽电子",
+    "盛合晶微",
+    "晶方科技"
+  ],
+  "companyAliases": {
+    "中芯国际": [
+      "688981.SH / 0981.HK",
+      "smic"
+    ],
+    "华虹宏力": [
+      "688347.SH / 1347.HK",
+      "hh",
+      "华虹半导体",
+      "华虹"
+    ],
+    "晶合集成": [
+      "688249.SH",
+      "nex"
+    ],
+    "芯联集成": [
+      "688469.SH",
+      "unt"
+    ],
+    "华润微": [
+      "688396.SH",
+      "cr"
+    ],
+    "粤芯半导体": [
+      "301526.SZ",
+      "can",
+      "粤芯"
+    ],
+    "燕东微": [
+      "688172.SH",
+      "yd"
+    ],
+    "通富微电": [
+      "002156.SZ",
+      "tf",
+      "通富"
+    ],
+    "长电科技": [
+      "600584.SH",
+      "jc",
+      "长电"
+    ],
+    "华天科技": [
+      "002185.SZ",
+      "ht",
+      "华天"
+    ],
+    "甬矽电子": [
+      "688362.SH",
+      "fh",
+      "甬矽"
+    ],
+    "盛合晶微": [
+      "688820.SH",
+      "sj"
+    ],
+    "晶方科技": [
+      "603005.SH",
+      "wf"
+    ]
+  },
+  "industries": [
+    "Fab",
+    "封测"
+  ],
+  "cityReferenceDefaults": {
+    "C:华虹宏力:上海:上海": {
+      "capacity": {
+        "value": 18,
+        "unit": "万片/月",
+        "kind": "已知部分 · 8 英寸",
+        "asOf": "华虹集团官网，未标日期",
+        "baseYear": 2026,
+        "sources": [
+          "hhLayout"
+        ],
+        "note": "仅上海三座 8 英寸厂合计，不含 12 英寸厂。",
+        "carry": true
+      }
+    },
+    "C:华润微:重庆:重庆": {
+      "capacity": {
+        "value": 3,
+        "unit": "万片/月",
+        "kind": "已知部分 · 12 英寸",
+        "asOf": "2026H1",
+        "baseYear": 2026,
+        "sources": [
+          "cr"
+        ],
+        "note": "润西微参股线按整条产线口径列示，不含重庆 8 英寸产线。",
+        "carry": true
+      }
+    },
+    "C:粤芯半导体:广东:广州": {
+      "capacity": {
+        "value": 6.33,
+        "unit": "万片/月",
+        "kind": "地区已实现月产能 · 12 英寸",
+        "asOf": "2025 年末",
+        "baseYear": 2025,
+        "sources": [
+          "can"
+        ],
+        "note": "一至三期两座工厂合计，不含四期，也未以 8 万片规划值替代。",
+        "carry": true
+      }
+    },
+    "C:燕东微:北京:北京": {
+      "capacity": {
+        "value": 6,
+        "unit": "万片/月",
+        "kind": "已知部分 · 8 英寸",
+        "asOf": "2026-04 募集说明书",
+        "baseYear": 2026,
+        "sources": [
+          "yd"
+        ],
+        "note": "仅北京 8 英寸线，不含两条 12 英寸产线。",
+        "carry": true
+      }
+    },
+    "C:燕东微:四川:成都": {
+      "capacity": {
+        "value": 6.5,
+        "unit": "万片/月",
+        "kind": "地区产能 · 6 英寸硅基",
+        "asOf": "2026-04 募集说明书",
+        "baseYear": 2026,
+        "sources": [
+          "yd",
+          "ydBio"
+        ],
+        "note": "仅成都 6 英寸硅基线。",
+        "carry": true
+      }
+    },
+    "C:华天科技:江苏:南京": {
+      "value": {
+        "value": 45.9,
+        "unit": "亿元人民币",
+        "kind": "当年已披露产值",
+        "asOf": "2025 全年",
+        "baseYear": 2025,
+        "sources": [
+          "htNj25"
+        ],
+        "note": "南京市政府披露华天科技（南京）有限公司 2025 年产值。",
+        "carry": false
+      }
+    }
+  },
+  "sourceRegistry": {
+    "smic": {
+      "id": "smic",
+      "title": "中芯国际 2026Q2 业绩公告",
+      "url": "https://database.comein.cn/original-data/pdf/documentsAnnouncement/400d33fca9e124930f7d8be2c5a5c10e.PDF",
+      "date": "2026Q2",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "hh": {
+      "id": "hh",
+      "title": "华虹宏力 2026Q3 业绩公告",
+      "url": "https://database.comein.cn/original-data/pdf/documentsAnnouncement_rt/5ed51c683d2eee531be2536fd6c6e9cd.pdf",
+      "date": "2026Q3",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "hhLayout": {
+      "id": "hhLayout",
+      "title": "华虹集团 · 集成电路制造",
+      "url": "https://www.huahong.com.cn/?id=9&m=channel",
+      "date": "官网未标日期",
+      "type": "公开资料",
+      "checked": "2026-11-07"
+    },
+    "hh2": {
+      "id": "hh2",
+      "title": "华虹无锡二期建成投片",
+      "url": "https://www.huahong.com.cn/?id=1538&m=detail",
+      "date": "2024-12-10",
+      "type": "公开资料",
+      "checked": "2026-11-07"
+    },
+    "hhSse": {
+      "id": "hhSse",
+      "title": "华虹宏力重组问询回复 · 可比项目",
+      "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-05-30/688347_20260530_5TA0.pdf#page=124",
+      "date": "2026-05-30",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "nex": {
+      "id": "nex",
+      "title": "晶合集成 · 四期启动公告",
+      "url": "https://www.nexchip.com.cn/zh-cn/News/News?id=928283893402963968",
+      "date": "2026-01-04",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "nexBio": {
+      "id": "nexBio",
+      "title": "晶合集成 · 发展历程",
+      "url": "https://www.nexchip.com.cn/zh-cn/About/Introduce",
+      "date": "官网未标日期",
+      "type": "公开资料",
+      "checked": "2026-11-07"
+    },
+    "unt": {
+      "id": "unt",
+      "title": "芯联集成 · 2026Q3 经营更新",
+      "url": "https://cn.unt-c.com/news/143",
+      "date": "2026Q3",
+      "type": "公开资料",
+      "checked": "2026-11-07"
+    },
+    "untH1": {
+      "id": "untH1",
+      "title": "芯联集成 2026 半年报",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466534.PDF",
+      "date": "2026H1",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "unt4": {
+      "id": "unt4",
+      "title": "芯联集成 · 四期公告",
+      "url": "https://cn.unt-c.com/news/138",
+      "date": "2026-06-11",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "cr": {
+      "id": "cr",
+      "title": "华润微 2026 半年报",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225497330.PDF",
+      "date": "2026H1",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "crBio": {
+      "id": "crBio",
+      "title": "华润微 · 发展历程",
+      "url": "https://www.crmicro.com/devHistory/",
+      "date": "官网未标日期",
+      "type": "公开资料",
+      "checked": "2026-11-07"
+    },
+    "can": {
+      "id": "can",
+      "title": "粤芯半导体 · 上市保荐书",
+      "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-09-15/c66c28ff-e49b-4782-8106-b14a831adb11.PDF",
+      "date": "2026-09-15",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "canGov": {
+      "id": "canGov",
+      "title": "广州市科技局 · 粤芯一至三期",
+      "url": "https://kjj.gz.gov.cn/xwlb/yw/content/post_10175948.html",
+      "date": "2025-03-24",
+      "type": "公开资料",
+      "checked": "2026-11-07"
+    },
+    "yd": {
+      "id": "yd",
+      "title": "北京电控 2026 年债券募集说明书",
+      "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-04-22/245099_20260422_FZFW.pdf",
+      "date": "2026-04-22",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "ydSse": {
+      "id": "ydSse",
+      "title": "燕东微 · 定增问询回复",
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202505/688172_20250516_N829.pdf",
+      "date": "2025-05-16",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "ydBio": {
+      "id": "ydBio",
+      "title": "燕东微 · 企业介绍",
+      "url": "https://www.ydme.com/about/",
+      "date": "官网未标日期",
+      "type": "公开资料",
+      "checked": "2026-11-07"
+    },
+    "tf": {
+      "id": "tf",
+      "title": "通富微电 · 七大生产基地",
+      "url": "https://www.tfme.com/product/66/",
+      "date": "官网未标日期",
+      "type": "公开资料",
+      "checked": "2026-11-07"
+    },
+    "tfA": {
+      "id": "tfA",
+      "title": "通富微电 2025 年报",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF#page=19",
+      "date": "2025年度",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "tfProj": {
+      "id": "tfProj",
+      "title": "通富微电 · 封测产能提升项目环评",
+      "url": "https://www.tfme.com/news_detail/16.html",
+      "date": "官网未标日期",
+      "type": "公开资料",
+      "checked": "2026-11-07"
+    },
+    "jc": {
+      "id": "jc",
+      "title": "长电科技 · 全球布局（ESG 报告）",
+      "url": "https://www.jcetglobal.com/uploads/2024%26e5%26b9%26b4%26e9%2695%26bf%26e7%2694%26b5%26e7%26a7%2691%26e6%268a%2680ESG%26e6%268a%26a5%26e5%2691%268a.pdf",
+      "date": "官网未标日期",
+      "type": "公开资料",
+      "checked": "2026-11-07"
+    },
+    "jcA": {
+      "id": "jcA",
+      "title": "长电科技 2025 年报",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-10/1225091498.PDF#page=16",
+      "date": "2025年度",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "jcH1": {
+      "id": "jcH1",
+      "title": "长电科技 2026 半年报",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225487900.PDF#page=10",
+      "date": "2026H1",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "jcQ3": {
+      "id": "jcQ3",
+      "title": "长电科技 2026 三季报",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225617213.PDF#page=4",
+      "date": "2026Q3",
+      "type": "公开资料",
+      "checked": "2026-11-07"
+    },
+    "ht": {
+      "id": "ht",
+      "title": "华天科技 · 企业介绍",
+      "url": "https://www.ht-tech.com/html/about/index.html",
+      "date": "官网未标日期",
+      "type": "公开资料",
+      "checked": "2026-11-07"
+    },
+    "htA": {
+      "id": "htA",
+      "title": "华天科技 2025 年报",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225059982.PDF#page=17",
+      "date": "2025年度",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "ht2": {
+      "id": "ht2",
+      "title": "华天科技 · 南京二期二阶段投资公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-05-23/1225325134.PDF",
+      "date": "2026-05-23",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "unisem": {
+      "id": "unisem",
+      "title": "Unisem · 2025 综合年报",
+      "url": "https://www.unisemgroup.com/wp-content/uploads/2026/03/Unisem-M-Berhad-IAR2025.pdf",
+      "date": "2025年度",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "fh": {
+      "id": "fh",
+      "title": "甬矽电子 · 公司简介",
+      "url": "https://www.forehope-elec.com/lists/3.html",
+      "date": "官网未标日期",
+      "type": "公开资料",
+      "checked": "2026-11-07"
+    },
+    "fhA": {
+      "id": "fhA",
+      "title": "甬矽电子 2025 年报",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-21/1225130241.PDF#page=31",
+      "date": "2025年度",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "fhProj": {
+      "id": "fhProj",
+      "title": "甬矽电子 · 可转债审核问询回复",
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202412/688362_20241226_UJX3.pdf",
+      "date": "2024-12-26",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "sj": {
+      "id": "sj",
+      "title": "盛合晶微 · 招股说明书",
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/002104_20260225_OHOK.pdf",
+      "date": "2026-02-25",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "wf": {
+      "id": "wf",
+      "title": "晶方科技 2025 年报",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-02-28/1224989090.PDF",
+      "date": "2025年度",
+      "type": "公司披露",
+      "checked": "2026-11-07"
+    },
+    "smicBj": {
+      "id": "smicBj",
+      "title": "北京经开区 · 中芯京城开工及一期规划",
+      "url": "https://kfqgw.beijing.gov.cn/zwgkkfq/ztzl/lqztkfq/lqzx/zxxx/202102/t20210223_2843722.html",
+      "date": "2021-02-23",
+      "type": "政府发布",
+      "checked": "2026-11-07"
+    },
+    "smicBjOp": {
+      "id": "smicBjOp",
+      "title": "北京经开区 2023 年度工作报告 · 中芯京城投产",
+      "url": "https://kfqgw.beijing.gov.cn/zwgkkfq/ghjh/zfgzbg/202402/t20240205_3556996.html",
+      "date": "2024-02-05",
+      "type": "政府工作报告",
+      "checked": "2026-11-07"
+    },
+    "smicSzPlan": {
+      "id": "smicSzPlan",
+      "title": "深圳市政府 · 中芯深圳 12 英寸项目规划",
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/mpost_8634681.html",
+      "date": "2021-03",
+      "type": "政府发布",
+      "checked": "2026-11-07"
+    },
+    "smicSzOp": {
+      "id": "smicSzOp",
+      "title": "深圳 2022 年计划执行报告 · 中芯 12 英寸线投产",
+      "url": "https://www.sz.gov.cn/zfgb/2023/gb1278/content/post_10484082.html",
+      "date": "2023",
+      "type": "政府工作报告",
+      "checked": "2026-11-07"
+    },
+    "smicSh": {
+      "id": "smicSh",
+      "title": "上海临港管委会 · 中芯临港一期方案调整",
+      "url": "https://www.lingang.gov.cn/html/website/lg/index/government/gonggaogongshi/guihuagongshi/1883346289701220354.html",
+      "date": "2025-01",
+      "type": "政府公示",
+      "checked": "2026-11-07"
+    },
+    "hh7": {
+      "id": "hh7",
+      "title": "华虹无锡一期建成投片",
+      "url": "https://www.huahong.com.cn/?id=507&m=detail",
+      "date": "2019-09-17",
+      "type": "公司官网",
+      "checked": "2026-11-07"
+    },
+    "hh9": {
+      "id": "hh9",
+      "title": "华虹无锡二期项目开工",
+      "url": "https://www.huahong.com.cn/?id=1495&m=detail",
+      "date": "2023-06-30",
+      "type": "公司官网",
+      "checked": "2026-11-07"
+    },
+    "nexPilot": {
+      "id": "nexPilot",
+      "title": "晶合集成 · 一厂试产历程",
+      "url": "https://www.nexchip.com.cn/zh-tw/News/News?id=33",
+      "date": "2018",
+      "type": "公司官网",
+      "checked": "2026-11-07"
+    },
+    "nex4Progress": {
+      "id": "nex4Progress",
+      "title": "晶合集成 · 四期建设主体进度",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225660492.PDF",
+      "date": "2026-11-06",
+      "type": "公司公告",
+      "checked": "2026-11-07"
+    },
+    "can4": {
+      "id": "can4",
+      "title": "广州市科技局 · 粤芯四期启动",
+      "url": "https://kjj.gz.gov.cn/xwlb/yw/content/post_10659513.html",
+      "date": "2026-01-23",
+      "type": "政府发布",
+      "checked": "2026-11-07"
+    },
+    "ydA": {
+      "id": "ydA",
+      "title": "燕东微 2025 年报",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225238474.PDF",
+      "date": "2026-04-29",
+      "type": "公司公告",
+      "checked": "2026-11-07"
+    },
+    "ydEquipment": {
+      "id": "ydEquipment",
+      "title": "燕东微 · 北电集成设备搬入",
+      "url": "https://www.ydme.com/news/158.html",
+      "date": "2025-12-16",
+      "type": "公司官网",
+      "checked": "2026-11-07"
+    },
+    "jcInvestment": {
+      "id": "jcInvestment",
+      "title": "长电科技 · 临港 78 亿元项目投资公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-06-25/1225386392.PDF",
+      "date": "2026-06-25",
+      "type": "公司公告",
+      "checked": "2026-11-07"
+    },
+    "jcWuxi": {
+      "id": "jcWuxi",
+      "title": "无锡市政府 · 江阴长电晶圆级项目及高密度 3D 项目进度",
+      "url": "https://www.wuxi.gov.cn/doc/2026/07/07/4800708.shtml",
+      "date": "2026-07-07",
+      "type": "政府发布",
+      "checked": "2026-11-07"
+    },
+    "jcEia": {
+      "id": "jcEia",
+      "title": "江阴高新区 · 长电先进倒装项目环评批复",
+      "url": "https://www.jiangyin.gov.cn/doc/2025/10/27/1361907.shtml",
+      "date": "2025-10-27",
+      "type": "环评批复",
+      "checked": "2026-11-07"
+    },
+    "htNj": {
+      "id": "htNj",
+      "title": "南京市政府 · 华天一期投产、二期启动及规划",
+      "url": "https://www.nanjing.gov.cn/zgnjsjb/jrtt/202403/t20240329_4198236.html",
+      "date": "2024-03-29",
+      "type": "政府发布",
+      "checked": "2026-11-07"
+    },
+    "htNj25": {
+      "id": "htNj25",
+      "title": "南京市政府 · 华天南京 2025 年产值",
+      "url": "https://www.nanjing.gov.cn/zzb/dzld/swld/lwd/202603/t20260321_5809837.html",
+      "date": "2026-03-21",
+      "type": "政府发布",
+      "checked": "2026-11-07"
+    },
+    "fhPhase2": {
+      "id": "fhPhase2",
+      "title": "甬矽电子 · 二期厂区建设进度及募投关系",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-03-13/1222777718.PDF#page=20",
+      "date": "2025-03-13",
+      "type": "公司公告",
+      "checked": "2026-11-07"
+    },
+    "sjH1": {
+      "id": "sjH1",
+      "title": "盛合晶微 2026 半年报",
+      "url": "https://database.comein.cn/original-data/pdf/documentsAnnouncement/004d9d1504c77987db0e127d116d3e46.pdf",
+      "date": "2026H1",
+      "type": "公司公告",
+      "checked": "2026-11-07"
+    },
+    "can1": {
+      "id": "can1",
+      "title": "广州市科技局 · 粤芯一期量产",
+      "url": "https://kjj.gz.gov.cn/xwlb/yw/content/post_2684101.html",
+      "type": "政府发布",
+      "date": "2019-09",
+      "checked": "2026-11-07"
+    }
+  },
+  "overseas": [
+    {
+      "company": "通富微电",
+      "industry": "封测",
+      "location": "马来西亚 · 槟城",
+      "notes": "通富超威槟城基地 · 已披露在产",
+      "sources": [
+        "tf"
+      ]
+    },
+    {
+      "company": "长电科技",
+      "industry": "封测",
+      "location": "新加坡 · 新加坡",
+      "notes": "星科金朋新加坡基地 · 已披露在产",
+      "sources": [
+        "jc"
+      ]
+    },
+    {
+      "company": "长电科技",
+      "industry": "封测",
+      "location": "韩国 · 仁川",
+      "notes": "星科金朋韩国基地 · 已披露在产",
+      "sources": [
+        "jc"
+      ]
+    },
+    {
+      "company": "华天科技",
+      "industry": "封测",
+      "location": "马来西亚 · 怡保",
+      "notes": "Unisem 怡保及 UAT 基地 · 已披露在产",
+      "sources": [
+        "unisem"
+      ]
+    },
+    {
+      "company": "华天科技",
+      "industry": "封测",
+      "location": "马来西亚 · 务边",
+      "notes": "Unisem Gopeng 基地 · 已披露在产",
+      "sources": [
+        "unisem"
+      ]
+    }
+  ],
+  "queries": {
+    "plants": {
+      "rows": [
+        {
+          "id": "P001",
+          "company": "中芯国际",
+          "companies": [
+            "中芯国际"
+          ],
+          "province": "上海",
+          "city": "上海",
+          "site": "上海晶圆制造基地",
+          "product": "8 / 12 英寸晶圆代工",
+          "industry": "Fab",
+          "category": "多尺寸晶圆",
+          "unit": "万片/月",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            121.47,
+            31.23
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "smic"
+          ]
+        },
+        {
+          "id": "P002",
+          "company": "中芯国际",
+          "companies": [
+            "中芯国际"
+          ],
+          "province": "北京",
+          "city": "北京",
+          "site": "北京晶圆制造基地",
+          "product": "12 英寸晶圆代工",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            116.41,
+            39.9
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "smic"
+          ]
+        },
+        {
+          "id": "P003",
+          "company": "中芯国际",
+          "companies": [
+            "中芯国际"
+          ],
+          "province": "天津",
+          "city": "天津",
+          "site": "天津晶圆制造基地",
+          "product": "8 英寸晶圆代工",
+          "industry": "Fab",
+          "category": "8 英寸",
+          "unit": "万片/月",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            117.2,
+            39.12
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "smic"
+          ]
+        },
+        {
+          "id": "P004",
+          "company": "中芯国际",
+          "companies": [
+            "中芯国际"
+          ],
+          "province": "广东",
+          "city": "深圳",
+          "site": "深圳晶圆制造基地",
+          "product": "8 / 12 英寸晶圆代工",
+          "industry": "Fab",
+          "category": "多尺寸晶圆",
+          "unit": "万片/月",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            114.06,
+            22.54
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "smic"
+          ]
+        },
+        {
+          "id": "P005",
+          "company": "华虹宏力",
+          "companies": [
+            "华虹宏力"
+          ],
+          "province": "上海",
+          "city": "上海",
+          "site": "金桥 / 张江 · 华虹一、二、三厂",
+          "product": "8 英寸特色工艺",
+          "industry": "Fab",
+          "category": "8 英寸",
+          "unit": "万片/月",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "约 18 万片/月 · 披露产能 · 集团官网口径 · 三座 8 英寸厂合计",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            121.47,
+            31.23
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "hhLayout"
+          ]
+        },
+        {
+          "id": "P006",
+          "company": "华虹宏力",
+          "companies": [
+            "华虹宏力"
+          ],
+          "province": "上海",
+          "city": "上海",
+          "site": "上海 12 英寸厂（华虹五厂）",
+          "product": "12 英寸特色工艺",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "2026Q3 公告列入公司制造布局。",
+          "coordinates": [
+            121.47,
+            31.23
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "hh"
+          ]
+        },
+        {
+          "id": "P007",
+          "company": "华虹宏力",
+          "companies": [
+            "华虹宏力"
+          ],
+          "province": "江苏",
+          "city": "无锡",
+          "site": "无锡一期 · 华虹七厂",
+          "product": "12 英寸 · 90–55 nm",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "4 万片/月 · 设计产能 · 一期初始设计 · 保留项目原口径，后续扩产看公司披露",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "2019年9月17日 · 投片",
+          "notes": "",
+          "coordinates": [
+            120.31,
+            31.49
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2019年9月17日",
+              "sortDate": "2019-09-17",
+              "phase": "投片",
+              "text": "无锡一期首批 12 英寸晶圆投片，进入生产运营阶段。",
+              "sources": [
+                "hh7"
+              ],
+              "certainty": "actual"
+            }
+          ],
+          "sources": [
+            "hhLayout",
+            "hh7"
+          ]
+        },
+        {
+          "id": "P008",
+          "company": "华虹宏力",
+          "companies": [
+            "华虹宏力"
+          ],
+          "province": "江苏",
+          "city": "无锡",
+          "site": "无锡二期 · 华虹九厂",
+          "product": "12 英寸 · 65/55–40 nm 特色工艺",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "8.3 万片/月 · 设计产能 · 2024-12 投片披露",
+          "investmentText": "计划总投资 67 亿美元（开工披露）",
+          "productionText": "",
+          "rampText": "2024年12月10日 · 投片",
+          "notes": "2024 年 12 月建成投片。",
+          "coordinates": [
+            120.31,
+            31.49
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2023年6月30日",
+              "sortDate": "2023-06-30",
+              "phase": "开工",
+              "text": "无锡二期开工，计划总投资 67 亿美元。",
+              "sources": [
+                "hh9"
+              ],
+              "certainty": "actual"
+            },
+            {
+              "date": "2024年12月10日",
+              "sortDate": "2024-12-10",
+              "phase": "投片",
+              "text": "无锡二期建成投片，项目设计月产能 8.3 万片。",
+              "sources": [
+                "hh2"
+              ],
+              "certainty": "actual"
+            }
+          ],
+          "sources": [
+            "hh2",
+            "hh9"
+          ]
+        },
+        {
+          "id": "P009",
+          "company": "华虹宏力",
+          "companies": [
+            "华虹宏力"
+          ],
+          "province": "江苏",
+          "city": "无锡",
+          "site": "无锡三期",
+          "product": "12 英寸特色工艺",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "规划／建设推进",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "截至 2026Q3 · 建设推进",
+          "notes": "",
+          "coordinates": [
+            120.31,
+            31.49
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2026Q3",
+              "sortDate": "2026-09-30",
+              "phase": "建设推进",
+              "text": "季度业绩公告列示无锡三期 12 英寸产线正在推进。",
+              "sources": [
+                "hh"
+              ],
+              "certainty": "by"
+            }
+          ],
+          "sources": [
+            "hh"
+          ]
+        },
+        {
+          "id": "P010",
+          "company": "晶合集成",
+          "companies": [
+            "晶合集成"
+          ],
+          "province": "安徽",
+          "city": "合肥",
+          "site": "新站晶圆制造一、二厂",
+          "product": "12 英寸 · 显示驱动、CIS 等",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "2017年6月28日 · 试产",
+          "notes": "",
+          "coordinates": [
+            117.23,
+            31.82
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2017年6月28日",
+              "sortDate": "2017-06-28",
+              "phase": "试产",
+              "text": "晶合一厂开始试产。本节点仅对应一厂。",
+              "sources": [
+                "nexPilot"
+              ],
+              "certainty": "actual"
+            }
+          ],
+          "sources": [
+            "nexBio",
+            "nexPilot"
+          ]
+        },
+        {
+          "id": "P011",
+          "company": "晶合集成",
+          "companies": [
+            "晶合集成"
+          ],
+          "province": "安徽",
+          "city": "合肥",
+          "site": "晶合三期",
+          "product": "12 英寸 · DDIC、CIS、PMIC、MCU",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "5 万片/月 · 设计产能 · 2026-05 披露 · 三期新增产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "2024年8月 · 投产",
+          "notes": "",
+          "coordinates": [
+            117.23,
+            31.82
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2024年8月",
+              "sortDate": "2024-08-01",
+              "phase": "投产",
+              "text": "交易所披露的可比项目表将三期投产时间列为 2024 年 8 月。",
+              "sources": [
+                "hhSse"
+              ],
+              "certainty": "actual"
+            }
+          ],
+          "sources": [
+            "hhSse"
+          ]
+        },
+        {
+          "id": "P012",
+          "company": "晶合集成",
+          "companies": [
+            "晶合集成"
+          ],
+          "province": "安徽",
+          "city": "合肥",
+          "site": "晶合四期",
+          "product": "12 英寸 · 40/28 nm 逻辑、CIS、OLED",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "规划／建设推进",
+          "capacity": null,
+          "capacityText": "5.5 万片/月 · 设计产能 · 2026-01 项目公告",
+          "investmentText": "计划总投资 355 亿元（启动披露）",
+          "productionText": "",
+          "rampText": "截至 2026年11月6日披露时 · 建设推进；预计 2026Q4 · 投产",
+          "notes": "公告目标为 2026Q4 搬入设备并投产，2028 年底满产。",
+          "coordinates": [
+            117.23,
+            31.82
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2026年1月",
+              "sortDate": "2026-01-01",
+              "phase": "启动建设",
+              "text": "四期在合肥新站启动，总投资 355 亿元，设计月产能 5.5 万片。",
+              "sources": [
+                "nex"
+              ],
+              "certainty": "actual"
+            },
+            {
+              "date": "2026年11月6日披露时",
+              "sortDate": "2026-11-06",
+              "phase": "建设推进",
+              "text": "公司公告仍将晶奕集成 12 英寸生产线列为在建。",
+              "sources": [
+                "nex4Progress"
+              ],
+              "certainty": "by"
+            },
+            {
+              "date": "2026Q4",
+              "sortDate": "2026-10-01",
+              "phase": "投产",
+              "text": "项目公告预计四季度设备搬入并投产。",
+              "sources": [
+                "nex"
+              ],
+              "certainty": "planned"
+            },
+            {
+              "date": "2028年底",
+              "sortDate": "2028-12-31",
+              "phase": "达产",
+              "text": "项目公告预计 2028 年底满产。",
+              "sources": [
+                "nex"
+              ],
+              "certainty": "planned"
+            }
+          ],
+          "sources": [
+            "nex",
+            "nex4Progress"
+          ]
+        },
+        {
+          "id": "P013",
+          "company": "芯联集成",
+          "companies": [
+            "芯联集成"
+          ],
+          "province": "浙江",
+          "city": "绍兴",
+          "site": "绍兴一期 / 二期",
+          "product": "8 英寸硅基、MEMS、功率器件及 SiC",
+          "industry": "Fab",
+          "category": "硅基与 SiC",
+          "unit": "万片/月",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            120.58,
+            30.03
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "untH1"
+          ]
+        },
+        {
+          "id": "P014",
+          "company": "芯联集成",
+          "companies": [
+            "芯联集成"
+          ],
+          "province": "浙江",
+          "city": "绍兴",
+          "site": "三期 · 12 英寸数模混合产线",
+          "product": "12 英寸 · 模拟 IC、功率、硅光",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "已披露在产／爬坡",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "截至 2026Q3 · 在产",
+          "notes": "公司 2026Q3 公布的 12 英寸月产能及扩产目标单列在公司口径。",
+          "coordinates": [
+            120.58,
+            30.03
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2026Q3",
+              "sortDate": "2026-09-30",
+              "phase": "在产",
+              "text": "公司公布 12 英寸月产能基数 5 万片。",
+              "sources": [
+                "unt"
+              ],
+              "certainty": "by"
+            }
+          ],
+          "sources": [
+            "unt"
+          ]
+        },
+        {
+          "id": "P015",
+          "company": "芯联集成",
+          "companies": [
+            "芯联集成"
+          ],
+          "province": "浙江",
+          "city": "绍兴",
+          "site": "四期 · 数模混合芯片制造",
+          "product": "12 英寸 · BCD、光互联、车规及工控",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "规划／建设推进",
+          "capacity": null,
+          "capacityText": "5 万片/月 · 设计产能 · 2026-06 公告 · 合资项目全口径，芯联集成持股 25.1%",
+          "investmentText": "计划总投资约 200 亿元（合资项目整体）",
+          "productionText": "",
+          "rampText": "2026年6月11日 · 投资公告",
+          "notes": "",
+          "coordinates": [
+            120.58,
+            30.03
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2026年6月11日",
+              "sortDate": "2026-06-11",
+              "phase": "投资公告",
+              "text": "公司拟合资建设四期，计划投资约 200 亿元，芯联集成拟持股 25.1%。",
+              "sources": [
+                "unt4"
+              ],
+              "certainty": "actual"
+            }
+          ],
+          "sources": [
+            "unt4"
+          ]
+        },
+        {
+          "id": "P016",
+          "company": "华润微",
+          "companies": [
+            "华润微"
+          ],
+          "province": "江苏",
+          "city": "无锡",
+          "site": "无锡晶圆制造基地",
+          "product": "6 / 8 英寸 · 功率、模拟特色工艺",
+          "industry": "Fab",
+          "category": "多尺寸晶圆",
+          "unit": "万片/月",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            120.31,
+            31.49
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "crBio"
+          ]
+        },
+        {
+          "id": "P017",
+          "company": "华润微",
+          "companies": [
+            "华润微"
+          ],
+          "province": "重庆",
+          "city": "重庆",
+          "site": "重庆 8 英寸功率器件产线",
+          "product": "8 英寸 · 功率半导体",
+          "industry": "Fab",
+          "category": "8 英寸",
+          "unit": "万片/月",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            106.55,
+            29.56
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "crBio"
+          ]
+        },
+        {
+          "id": "P018",
+          "company": "华润微",
+          "companies": [
+            "华润微"
+          ],
+          "province": "重庆",
+          "city": "重庆",
+          "site": "润西微 · 重庆 12 英寸线",
+          "product": "12 英寸 · 功率半导体",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "约 3 万片/月 · 披露产能 · 2026H1 · 华润微参股项目，按整条产线口径",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "2025年 · 达产",
+          "notes": "",
+          "coordinates": [
+            106.55,
+            29.56
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2022年",
+              "sortDate": "2022-01-01",
+              "phase": "通线",
+              "text": "重庆 12 英寸晶圆线通线。",
+              "sources": [
+                "crBio"
+              ],
+              "certainty": "actual"
+            },
+            {
+              "date": "2025年",
+              "sortDate": "2025-01-01",
+              "phase": "达产",
+              "text": "公司历程披露月度达到 3 万片。",
+              "sources": [
+                "crBio"
+              ],
+              "certainty": "actual"
+            }
+          ],
+          "sources": [
+            "cr",
+            "crBio"
+          ]
+        },
+        {
+          "id": "P019",
+          "company": "华润微",
+          "companies": [
+            "华润微"
+          ],
+          "province": "广东",
+          "city": "深圳",
+          "site": "润鹏 · 深圳 12 英寸线",
+          "product": "12 英寸 · 40 nm 及以上模拟特色工艺",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "已披露在产／爬坡",
+          "capacity": null,
+          "capacityText": "4 万片/月 · 设计产能 · 2026-05 可比项目披露 · 参股项目，按整条产线口径",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "2024年12月 · 投产",
+          "notes": "2026H1 上量爬坡。",
+          "coordinates": [
+            114.06,
+            22.54
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2022年",
+              "sortDate": "2022-01-01",
+              "phase": "启动建设",
+              "text": "深圳 12 英寸集成电路生产线启动建设。",
+              "sources": [
+                "crBio"
+              ],
+              "certainty": "actual"
+            },
+            {
+              "date": "2024年12月",
+              "sortDate": "2024-12-01",
+              "phase": "投产",
+              "text": "交易所披露的可比项目表列示投产。",
+              "sources": [
+                "hhSse"
+              ],
+              "certainty": "actual"
+            }
+          ],
+          "sources": [
+            "cr",
+            "hhSse",
+            "crBio"
+          ]
+        },
+        {
+          "id": "P020",
+          "company": "粤芯半导体",
+          "companies": [
+            "粤芯半导体"
+          ],
+          "province": "广东",
+          "city": "广州",
+          "site": "第一工厂 · 粤芯一、二期",
+          "product": "12 英寸 · 模拟特色工艺",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "4 万片/月 · 披露产能 · 2025-03 政府披露 · 一、二期合计",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "2019年9月 · 量产爬坡",
+          "notes": "",
+          "coordinates": [
+            113.26,
+            23.13
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2019年9月",
+              "sortDate": "2019-09-01",
+              "phase": "量产爬坡",
+              "text": "第一工厂一期进入量产爬坡。",
+              "sources": [
+                "can1"
+              ],
+              "certainty": "actual"
+            }
+          ],
+          "sources": [
+            "canGov",
+            "can1"
+          ]
+        },
+        {
+          "id": "P021",
+          "company": "粤芯半导体",
+          "companies": [
+            "粤芯半导体"
+          ],
+          "province": "广东",
+          "city": "广州",
+          "site": "第二工厂 · 粤芯三期",
+          "product": "12 英寸 · 模拟及混合信号",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "已披露在产／爬坡",
+          "capacity": null,
+          "capacityText": "4 万片/月 · 设计产能 · 2026-09 上市保荐书 · 一至三期合计设计 8 万片/月，扣除一、二期 4 万片/月",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "2024年12月28日 · 投产",
+          "notes": "2024 年 12 月通线。",
+          "coordinates": [
+            113.26,
+            23.13
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2024年12月28日",
+              "sortDate": "2024-12-28",
+              "phase": "投产",
+              "text": "广州科技局报道三期已通线投产。",
+              "sources": [
+                "canGov"
+              ],
+              "certainty": "actual"
+            }
+          ],
+          "sources": [
+            "can",
+            "canGov"
+          ]
+        },
+        {
+          "id": "P022",
+          "company": "粤芯半导体",
+          "companies": [
+            "粤芯半导体"
+          ],
+          "province": "广东",
+          "city": "广州",
+          "site": "第三工厂 · 粤芯四期",
+          "product": "12 英寸 · 65–22 nm 数模混合、硅光等",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "规划／建设推进",
+          "capacity": null,
+          "capacityText": "4 万片/月 · 设计产能 · 2026-09 上市保荐书",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "2026年1月22日 · 启动",
+          "notes": "",
+          "coordinates": [
+            113.26,
+            23.13
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2026年1月22日",
+              "sortDate": "2026-01-22",
+              "phase": "启动",
+              "text": "粤芯四期项目启动，规划每月新增 4 万片 12 英寸产能。",
+              "sources": [
+                "can4"
+              ],
+              "certainty": "actual"
+            }
+          ],
+          "sources": [
+            "can",
+            "can4"
+          ]
+        },
+        {
+          "id": "P023",
+          "company": "燕东微",
+          "companies": [
+            "燕东微"
+          ],
+          "province": "北京",
+          "city": "北京",
+          "site": "燕东微 · 8 英寸晶圆线",
+          "product": "8 英寸 · 功率、显示驱动",
+          "industry": "Fab",
+          "category": "8 英寸",
+          "unit": "万片/月",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "6 万片/月 · 披露产能 · 2026-04 募集说明书",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            116.41,
+            39.9
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "yd"
+          ]
+        },
+        {
+          "id": "P024",
+          "company": "燕东微",
+          "companies": [
+            "燕东微"
+          ],
+          "province": "北京",
+          "city": "北京",
+          "site": "燕东科技 · 65 nm 产线",
+          "product": "12 英寸 · 90–65 nm 特色工艺",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "已披露在产／爬坡",
+          "capacity": null,
+          "capacityText": "4 万片/月 · 设计产能 · 2025-05 问询回复",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "截至 2025年5月 · 量产爬坡",
+          "notes": "",
+          "coordinates": [
+            116.41,
+            39.9
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2025年5月",
+              "sortDate": "2025-05-31",
+              "phase": "量产爬坡",
+              "text": "定增问询回复称 65 nm 产线处于产能爬坡。",
+              "sources": [
+                "ydSse"
+              ],
+              "certainty": "by"
+            }
+          ],
+          "sources": [
+            "ydSse"
+          ]
+        },
+        {
+          "id": "P025",
+          "company": "燕东微",
+          "companies": [
+            "燕东微"
+          ],
+          "province": "北京",
+          "city": "北京",
+          "site": "北电集成 · 12 英寸项目",
+          "product": "12 英寸 · 55–28 nm 特色工艺",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "规划／建设推进",
+          "capacity": null,
+          "capacityText": "5 万片/月 · 设计产能 · 2025-05 问询回复",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "2025年12月10日 · 设备搬入；预计 2026年下半年 · 量产",
+          "notes": "",
+          "coordinates": [
+            116.41,
+            39.9
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2025年12月10日",
+              "sortDate": "2025-12-10",
+              "phase": "设备搬入",
+              "text": "北电集成进入设备安装调试。",
+              "sources": [
+                "ydEquipment"
+              ],
+              "certainty": "actual"
+            },
+            {
+              "date": "2026年下半年",
+              "sortDate": "2026-07-01",
+              "phase": "量产",
+              "text": "公司官网披露的量产计划。",
+              "sources": [
+                "ydEquipment"
+              ],
+              "certainty": "planned"
+            }
+          ],
+          "sources": [
+            "ydSse",
+            "ydEquipment"
+          ]
+        },
+        {
+          "id": "P026",
+          "company": "燕东微",
+          "companies": [
+            "燕东微"
+          ],
+          "province": "四川",
+          "city": "成都",
+          "site": "成都 · 6 英寸硅基生产线",
+          "product": "6 英寸 · 功率器件、传感器",
+          "industry": "Fab",
+          "category": "6 英寸",
+          "unit": "万片/月",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "6.5 万片/月 · 披露产能 · 2026-04 募集说明书 · 6 英寸硅基口径",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            104.07,
+            30.67
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "ydBio",
+            "yd"
+          ]
+        },
+        {
+          "id": "P027",
+          "company": "通富微电",
+          "companies": [
+            "通富微电"
+          ],
+          "province": "江苏",
+          "city": "南通",
+          "site": "崇川 / 苏通 / 通富通科基地",
+          "product": "集成电路封装测试",
+          "industry": "封测",
+          "category": "综合封测",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            120.89,
+            31.98
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "tf"
+          ]
+        },
+        {
+          "id": "P028",
+          "company": "通富微电",
+          "companies": [
+            "通富微电"
+          ],
+          "province": "江苏",
+          "city": "南通",
+          "site": "高性能计算及通信封测产能提升项目",
+          "product": "高性能计算及通信封测",
+          "industry": "封测",
+          "category": "先进封装",
+          "unit": "亿颗/年",
+          "status": "规划／建设推进",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "状态依据环评披露。",
+          "coordinates": [
+            120.89,
+            31.98
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "tfProj"
+          ]
+        },
+        {
+          "id": "P029",
+          "company": "通富微电",
+          "companies": [
+            "通富微电"
+          ],
+          "province": "江苏",
+          "city": "苏州",
+          "site": "通富超威苏州基地",
+          "product": "高性能计算封装测试",
+          "industry": "封测",
+          "category": "先进封装",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            120.59,
+            31.3
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "tf"
+          ]
+        },
+        {
+          "id": "P030",
+          "company": "通富微电",
+          "companies": [
+            "通富微电"
+          ],
+          "province": "安徽",
+          "city": "合肥",
+          "site": "合肥通富基地",
+          "product": "集成电路封装测试",
+          "industry": "封测",
+          "category": "综合封测",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            117.23,
+            31.82
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "tf"
+          ]
+        },
+        {
+          "id": "P031",
+          "company": "通富微电",
+          "companies": [
+            "通富微电"
+          ],
+          "province": "福建",
+          "city": "厦门",
+          "site": "厦门通富基地",
+          "product": "集成电路封装测试",
+          "industry": "封测",
+          "category": "综合封测",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "2025年8月31日 · 并表",
+          "notes": "2025 年 8 月纳入合并范围。",
+          "coordinates": [
+            118.09,
+            24.48
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2025年8月31日",
+              "sortDate": "2025-08-31",
+              "phase": "并表",
+              "text": "厦门通富自该日纳入通富微电合并范围。",
+              "sources": [
+                "tfA"
+              ],
+              "certainty": "actual"
+            }
+          ],
+          "sources": [
+            "tfA"
+          ]
+        },
+        {
+          "id": "P032",
+          "company": "通富微电",
+          "companies": [
+            "通富微电"
+          ],
+          "province": "马来西亚",
+          "city": "槟城",
+          "site": "通富超威槟城基地",
+          "product": "高性能计算封装测试",
+          "industry": "封测",
+          "category": "先进封装",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            100.33,
+            5.41
+          ],
+          "overseas": true,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "tf"
+          ]
+        },
+        {
+          "id": "P033",
+          "company": "长电科技",
+          "companies": [
+            "长电科技"
+          ],
+          "province": "江苏",
+          "city": "江阴",
+          "site": "江阴城东及星科金朋江阴等基地",
+          "product": "集成电路封装测试",
+          "industry": "封测",
+          "category": "综合封测",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            120.28,
+            31.92
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "jc"
+          ]
+        },
+        {
+          "id": "P034",
+          "company": "长电科技",
+          "companies": [
+            "长电科技"
+          ],
+          "province": "江苏",
+          "city": "江阴",
+          "site": "长电微电子先进封装工厂",
+          "product": "高端先进封装",
+          "industry": "封测",
+          "category": "先进封装",
+          "unit": "亿颗/年",
+          "status": "已披露在产／爬坡",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "截至 2026年7月 · 建设推进；预计 2027年8月 · 全面投产",
+          "notes": "半年报披露已投产，持续推进客户认证和项目导入。",
+          "coordinates": [
+            120.28,
+            31.92
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2026H1",
+              "sortDate": "2026-06-30",
+              "phase": "投产",
+              "text": "半年报披露长电微电子已投产，推进产能建设、认证与项目导入。",
+              "sources": [
+                "jcH1"
+              ],
+              "certainty": "by"
+            },
+            {
+              "date": "2026年7月",
+              "sortDate": "2026-07-07",
+              "phase": "建设推进",
+              "text": "一、二期厂房已投用，三期正在装修。",
+              "sources": [
+                "jcWuxi"
+              ],
+              "certainty": "by"
+            },
+            {
+              "date": "2027年8月",
+              "sortDate": "2027-08-01",
+              "phase": "全面投产",
+              "text": "无锡市政府发布的项目计划。",
+              "sources": [
+                "jcWuxi"
+              ],
+              "certainty": "planned"
+            }
+          ],
+          "sources": [
+            "jcH1",
+            "jcWuxi"
+          ]
+        },
+        {
+          "id": "P035",
+          "company": "长电科技",
+          "companies": [
+            "长电科技"
+          ],
+          "province": "江苏",
+          "city": "宿迁",
+          "site": "长电科技宿迁基地",
+          "product": "集成电路封装测试",
+          "industry": "封测",
+          "category": "综合封测",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            118.28,
+            33.96
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "jc"
+          ]
+        },
+        {
+          "id": "P036",
+          "company": "长电科技",
+          "companies": [
+            "长电科技"
+          ],
+          "province": "安徽",
+          "city": "滁州",
+          "site": "长电科技滁州基地",
+          "product": "集成电路封装测试",
+          "industry": "封测",
+          "category": "综合封测",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            118.32,
+            32.3
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "jc"
+          ]
+        },
+        {
+          "id": "P037",
+          "company": "长电科技",
+          "companies": [
+            "长电科技"
+          ],
+          "province": "上海",
+          "city": "上海",
+          "site": "临港汽车电子封测工厂",
+          "product": "车规封装测试",
+          "industry": "封测",
+          "category": "综合封测",
+          "unit": "亿颗/年",
+          "status": "已披露在产／爬坡",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "2026Q2 · 量产",
+          "notes": "2026 年 3 月投产，二季度进入批量生产。",
+          "coordinates": [
+            121.47,
+            31.23
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2026年3月",
+              "sortDate": "2026-03-01",
+              "phase": "投产",
+              "text": "上海临港汽车电子工厂投产。",
+              "sources": [
+                "jcH1"
+              ],
+              "certainty": "actual"
+            },
+            {
+              "date": "2026Q2",
+              "sortDate": "2026-04-01",
+              "phase": "量产",
+              "text": "工厂进入批量生产阶段。",
+              "sources": [
+                "jcH1"
+              ],
+              "certainty": "actual"
+            }
+          ],
+          "sources": [
+            "jcH1"
+          ]
+        },
+        {
+          "id": "P038",
+          "company": "长电科技",
+          "companies": [
+            "长电科技"
+          ],
+          "province": "上海",
+          "city": "上海",
+          "site": "临港东方芯港 · 高端先进封测项目",
+          "product": "高端先进封装与测试",
+          "industry": "封测",
+          "category": "先进封装",
+          "unit": "亿颗/年",
+          "status": "规划／建设推进",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "78 亿元 · 项目投资 · 2026Q3 · 已完成项目子公司的工商登记",
+          "productionText": "",
+          "rampText": "截至 2026Q3报告披露时 · 子公司设立",
+          "notes": "",
+          "coordinates": [
+            121.47,
+            31.23
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2026年6月24日",
+              "sortDate": "2026-06-24",
+              "phase": "投资决议",
+              "text": "董事会审议通过在上海临港投资建设高端先进封测工厂。",
+              "sources": [
+                "jcInvestment"
+              ],
+              "certainty": "actual"
+            },
+            {
+              "date": "2026Q3报告披露时",
+              "sortDate": "2026-10-23",
+              "phase": "子公司设立",
+              "text": "项目子公司完成工商登记，项目继续推进。",
+              "sources": [
+                "jcQ3"
+              ],
+              "certainty": "by"
+            }
+          ],
+          "sources": [
+            "jcQ3",
+            "jcInvestment"
+          ]
+        },
+        {
+          "id": "P039",
+          "company": "长电科技",
+          "companies": [
+            "长电科技"
+          ],
+          "province": "新加坡",
+          "city": "新加坡",
+          "site": "星科金朋新加坡基地",
+          "product": "先进封装与测试",
+          "industry": "封测",
+          "category": "先进封装",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            103.82,
+            1.35
+          ],
+          "overseas": true,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "jc"
+          ]
+        },
+        {
+          "id": "P040",
+          "company": "长电科技",
+          "companies": [
+            "长电科技"
+          ],
+          "province": "韩国",
+          "city": "仁川",
+          "site": "星科金朋韩国基地",
+          "product": "系统级封装与测试",
+          "industry": "封测",
+          "category": "综合封测",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            126.7,
+            37.46
+          ],
+          "overseas": true,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "jc"
+          ]
+        },
+        {
+          "id": "P041",
+          "company": "华天科技",
+          "companies": [
+            "华天科技"
+          ],
+          "province": "甘肃",
+          "city": "天水",
+          "site": "华天科技天水基地",
+          "product": "集成电路封装测试",
+          "industry": "封测",
+          "category": "综合封测",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            105.72,
+            34.58
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "ht"
+          ]
+        },
+        {
+          "id": "P042",
+          "company": "华天科技",
+          "companies": [
+            "华天科技"
+          ],
+          "province": "陕西",
+          "city": "西安",
+          "site": "华天科技西安基地",
+          "product": "集成电路封装测试",
+          "industry": "封测",
+          "category": "综合封测",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            108.94,
+            34.34
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "ht"
+          ]
+        },
+        {
+          "id": "P043",
+          "company": "华天科技",
+          "companies": [
+            "华天科技"
+          ],
+          "province": "江苏",
+          "city": "昆山",
+          "site": "华天科技昆山基地",
+          "product": "晶圆级封装、TSV",
+          "industry": "封测",
+          "category": "先进封装",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            120.98,
+            31.39
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "ht"
+          ]
+        },
+        {
+          "id": "P044",
+          "company": "华天科技",
+          "companies": [
+            "华天科技"
+          ],
+          "province": "江苏",
+          "city": "南京",
+          "site": "华天科技南京基地",
+          "product": "存储、射频及先进封测",
+          "industry": "封测",
+          "category": "先进封装",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "2020年7月 · 投产",
+          "notes": "",
+          "coordinates": [
+            118.8,
+            32.06
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2020年7月",
+              "sortDate": "2020-07-01",
+              "phase": "投产",
+              "text": "华天南京一期正式投产。",
+              "sources": [
+                "htNj"
+              ],
+              "certainty": "actual"
+            }
+          ],
+          "sources": [
+            "ht",
+            "htNj"
+          ]
+        },
+        {
+          "id": "P045",
+          "company": "华天科技",
+          "companies": [
+            "华天科技"
+          ],
+          "province": "江苏",
+          "city": "南京",
+          "site": "南京二期二阶段",
+          "product": "存储集成电路封装测试",
+          "industry": "封测",
+          "category": "综合封测",
+          "unit": "亿只/年",
+          "status": "规划／建设推进",
+          "capacity": null,
+          "capacityText": "约 4.3 亿只/年 · 设计产能 · 2026-05 投资公告 · 建成投产后预计产出",
+          "investmentText": "计划投资 30 亿元（二期二阶段）",
+          "productionText": "",
+          "rampText": "2026年5月 · 投资决议",
+          "notes": "",
+          "coordinates": [
+            118.8,
+            32.06
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2026年5月",
+              "sortDate": "2026-05-22",
+              "phase": "投资决议",
+              "text": "董事会审议同意二期二阶段投资 30 亿元，建成投产后预计年封测 4.3 亿只。",
+              "sources": [
+                "ht2"
+              ],
+              "certainty": "actual"
+            }
+          ],
+          "sources": [
+            "ht2"
+          ]
+        },
+        {
+          "id": "P046",
+          "company": "华天科技",
+          "companies": [
+            "华天科技"
+          ],
+          "province": "马来西亚",
+          "city": "怡保",
+          "site": "Unisem 怡保及 UAT 基地",
+          "product": "集成电路封装测试、晶圆凸块",
+          "industry": "封测",
+          "category": "先进封装",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            101.08,
+            4.6
+          ],
+          "overseas": true,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "unisem"
+          ]
+        },
+        {
+          "id": "P047",
+          "company": "华天科技",
+          "companies": [
+            "华天科技"
+          ],
+          "province": "马来西亚",
+          "city": "务边",
+          "site": "Unisem Gopeng 基地",
+          "product": "集成电路封装测试",
+          "industry": "封测",
+          "category": "综合封测",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "截至 2025年 · 投产",
+          "notes": "",
+          "coordinates": [
+            101.17,
+            4.47
+          ],
+          "overseas": true,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2025年",
+              "sortDate": "2025-12-31",
+              "phase": "投产",
+              "text": "Unisem 年报将已开始运营的 Gopeng 工厂纳入报告范围。",
+              "sources": [
+                "unisem"
+              ],
+              "certainty": "by"
+            }
+          ],
+          "sources": [
+            "unisem"
+          ]
+        },
+        {
+          "id": "P048",
+          "company": "华天科技",
+          "companies": [
+            "华天科技"
+          ],
+          "province": "四川",
+          "city": "成都",
+          "site": "Unisem 成都基地",
+          "product": "集成电路封装测试、晶圆凸块",
+          "industry": "封测",
+          "category": "先进封装",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            104.07,
+            30.67
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "unisem"
+          ]
+        },
+        {
+          "id": "P049",
+          "company": "甬矽电子",
+          "companies": [
+            "甬矽电子"
+          ],
+          "province": "浙江",
+          "city": "余姚",
+          "site": "甬矽电子封测基地",
+          "product": "SiP、QFN、倒装及晶圆级封测",
+          "industry": "封测",
+          "category": "先进封装",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            121.15,
+            30.04
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "fh"
+          ]
+        },
+        {
+          "id": "P050",
+          "company": "甬矽电子",
+          "companies": [
+            "甬矽电子"
+          ],
+          "province": "浙江",
+          "city": "余姚",
+          "site": "高密度及混合集成封测项目",
+          "product": "高密度集成电路封装测试",
+          "industry": "封测",
+          "category": "综合封测",
+          "unit": "亿颗/年",
+          "status": "规划／建设推进",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "按募投文件列示项目。",
+          "coordinates": [
+            121.15,
+            30.04
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "fhProj"
+          ]
+        },
+        {
+          "id": "P051",
+          "company": "盛合晶微",
+          "companies": [
+            "盛合晶微"
+          ],
+          "province": "江苏",
+          "city": "江阴",
+          "site": "盛合晶微江阴制造基地",
+          "product": "Bumping、晶圆级封装、多芯片集成",
+          "industry": "封测",
+          "category": "先进封装",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            120.28,
+            31.92
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "sj"
+          ]
+        },
+        {
+          "id": "P052",
+          "company": "盛合晶微",
+          "companies": [
+            "盛合晶微"
+          ],
+          "province": "江苏",
+          "city": "江阴",
+          "site": "三维多芯片集成封装项目",
+          "product": "2.5D / 3D Package 与配套 Bumping",
+          "industry": "封测",
+          "category": "综合封测",
+          "unit": "万片/月",
+          "status": "规划／建设推进",
+          "capacity": null,
+          "capacityText": "1.6 万片/月 · 设计产能 · 2026-02 招股说明书 · 三维多芯片集成封装；8 万片/月 · 设计产能 · 2026-02 招股说明书 · 配套 Bumping",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            120.28,
+            31.92
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "sj"
+          ]
+        },
+        {
+          "id": "P053",
+          "company": "晶方科技",
+          "companies": [
+            "晶方科技"
+          ],
+          "province": "江苏",
+          "city": "苏州",
+          "site": "晶方科技苏州基地",
+          "product": "晶圆级芯片尺寸封装 · CIS、传感器",
+          "industry": "封测",
+          "category": "先进封装",
+          "unit": "亿颗/年",
+          "status": "已披露在产",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "暂无明确投产节点",
+          "notes": "",
+          "coordinates": [
+            120.59,
+            31.3
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [],
+          "sources": [
+            "wf"
+          ]
+        },
+        {
+          "id": "P054",
+          "company": "中芯国际",
+          "companies": [
+            "中芯国际"
+          ],
+          "province": "北京",
+          "city": "北京",
+          "site": "中芯京城 · 一期",
+          "product": "12 英寸晶圆代工",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "已披露在产／爬坡",
+          "capacity": null,
+          "capacityText": "约 10 万片/月 · 设计产能 · 2021-02 开工披露",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "截至 2023年 · 投产",
+          "notes": "项目规划口径。北京制造基地与下辖项目有重叠。",
+          "coordinates": [
+            116.41,
+            39.9
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2021年1月8日",
+              "sortDate": "2021-01-08",
+              "phase": "开工",
+              "text": "中芯京城一期开始动工。",
+              "sources": [
+                "smicBj"
+              ],
+              "certainty": "actual"
+            },
+            {
+              "date": "2023年",
+              "sortDate": "2023-12-31",
+              "phase": "投产",
+              "text": "北京经开区年度工作报告披露中芯京城已投产。",
+              "sources": [
+                "smicBjOp"
+              ],
+              "certainty": "by"
+            }
+          ],
+          "sources": [
+            "smicBj",
+            "smicBjOp"
+          ]
+        },
+        {
+          "id": "P055",
+          "company": "中芯国际",
+          "companies": [
+            "中芯国际"
+          ],
+          "province": "上海",
+          "city": "上海",
+          "site": "中芯临港 · 一期",
+          "product": "12 英寸晶圆代工",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "最新投产状态待核",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "2025年1月 · 方案公示",
+          "notes": "按政府公示的项目分期收录，产能和实际投产时间未列示。",
+          "coordinates": [
+            121.47,
+            31.23
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2025年1月",
+              "sortDate": "2025-01-26",
+              "phase": "方案公示",
+              "text": "临港一期方案调整公开征求意见。",
+              "sources": [
+                "smicSh"
+              ],
+              "certainty": "actual"
+            }
+          ],
+          "sources": [
+            "smicSh"
+          ]
+        },
+        {
+          "id": "P056",
+          "company": "中芯国际",
+          "companies": [
+            "中芯国际"
+          ],
+          "province": "广东",
+          "city": "深圳",
+          "site": "中芯深圳 · 12 英寸项目",
+          "product": "12 英寸 · 28 nm 及以上",
+          "industry": "Fab",
+          "category": "12 英寸",
+          "unit": "万片/月",
+          "status": "已披露在产／爬坡",
+          "capacity": null,
+          "capacityText": "约 4 万片/月 · 设计产能 · 2021-03 项目计划 · 最终目标",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "2022年 · 投产",
+          "notes": "属于深圳制造基地的下辖项目。",
+          "coordinates": [
+            114.06,
+            22.54
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2022年",
+              "sortDate": "2022-01-01",
+              "phase": "投产",
+              "text": "深圳年度计划执行报告披露中芯 12 英寸线已投产。",
+              "sources": [
+                "smicSzOp"
+              ],
+              "certainty": "actual"
+            }
+          ],
+          "sources": [
+            "smicSzOp",
+            "smicSzPlan"
+          ]
+        },
+        {
+          "id": "P057",
+          "company": "长电科技",
+          "companies": [
+            "长电科技"
+          ],
+          "province": "江苏",
+          "city": "江阴",
+          "site": "年产 12 亿颗系统级先进倒装项目",
+          "product": "系统级先进倒装",
+          "industry": "封测",
+          "category": "先进封装",
+          "unit": "亿颗/年",
+          "status": "规划／建设推进",
+          "capacity": null,
+          "capacityText": "12 亿颗/年 · 设计产能 · 2025-10 环评批复",
+          "investmentText": "暂无可独立归属的公开投资额",
+          "productionText": "",
+          "rampText": "2025年10月27日 · 环评批复",
+          "notes": "按环评项目口径收录，可能与所在厂区的总量重叠。",
+          "coordinates": [
+            120.28,
+            31.92
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2025年10月27日",
+              "sortDate": "2025-10-27",
+              "phase": "环评批复",
+              "text": "江阴高新区批复先进倒装项目环评。",
+              "sources": [
+                "jcEia"
+              ],
+              "certainty": "actual"
+            }
+          ],
+          "sources": [
+            "jcEia"
+          ]
+        },
+        {
+          "id": "P058",
+          "company": "甬矽电子",
+          "companies": [
+            "甬矽电子"
+          ],
+          "province": "浙江",
+          "city": "余姚",
+          "site": "滨海大道二期厂区",
+          "product": "晶圆级封装、倒装及其他封测",
+          "industry": "封测",
+          "category": "先进封装",
+          "unit": "亿颗/年",
+          "status": "已披露在产／爬坡",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "约 111 亿元 · 项目投资 · 框架协议规划 · 实际投入以公司披露为准",
+          "productionText": "",
+          "rampText": "2023年1月16日 · 厂房移交",
+          "notes": "具体募投项目在二期厂区内实施，二者不可相加。",
+          "coordinates": [
+            121.15,
+            30.04
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2022年",
+              "sortDate": "2022-01-01",
+              "phase": "启动建设",
+              "text": "甬矽启动二期厂区建设。",
+              "sources": [
+                "fhPhase2"
+              ],
+              "certainty": "actual"
+            },
+            {
+              "date": "2023年1月16日",
+              "sortDate": "2023-01-16",
+              "phase": "厂房移交",
+              "text": "第三批次约定区段移交给甬矽半导体。",
+              "sources": [
+                "fhPhase2"
+              ],
+              "certainty": "actual"
+            }
+          ],
+          "sources": [
+            "fhPhase2"
+          ]
+        },
+        {
+          "id": "P059",
+          "company": "盛合晶微",
+          "companies": [
+            "盛合晶微"
+          ],
+          "province": "上海",
+          "city": "上海",
+          "site": "东盛合芯三维集成芯片制造一期",
+          "product": "3DIC",
+          "industry": "封测",
+          "category": "先进封装",
+          "unit": "亿颗/年",
+          "status": "规划／建设推进",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "约 100 亿元 · 项目投资 · 2026H1 · 以实际投入为准",
+          "productionText": "",
+          "rampText": "2026年6月29日 · 开工",
+          "notes": "项目规划建设 3DIC 规模量产能力。",
+          "coordinates": [
+            121.47,
+            31.23
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2026年6月29日",
+              "sortDate": "2026-06-29",
+              "phase": "开工",
+              "text": "东盛合芯三维集成芯片制造一期正式开工。",
+              "sources": [
+                "sjH1"
+              ],
+              "certainty": "actual"
+            }
+          ],
+          "sources": [
+            "sjH1"
+          ]
+        },
+        {
+          "id": "P060",
+          "company": "华天科技",
+          "companies": [
+            "华天科技"
+          ],
+          "province": "江苏",
+          "city": "南京",
+          "site": "南京二期 · 总体项目",
+          "product": "存储、射频、算力与车规封测",
+          "industry": "封测",
+          "category": "综合封测",
+          "unit": "亿颗/年",
+          "status": "规划／建设推进",
+          "capacity": null,
+          "capacityText": "暂无可独立归属本基地的公开产能",
+          "investmentText": "约 100 亿元 · 项目投资 · 2024-03 规划",
+          "productionText": "",
+          "rampText": "2024年3月 · 启动；预计 2028年 · 建成",
+          "notes": "总体项目含多个阶段，二期二阶段单列，规模不重复累计。",
+          "coordinates": [
+            118.8,
+            32.06
+          ],
+          "overseas": false,
+          "coordinateAccuracy": "城市中心示意，非厂址",
+          "events": [
+            {
+              "date": "2024年3月",
+              "sortDate": "2024-03-29",
+              "phase": "启动",
+              "text": "南京市政府公布华天南京二期总体项目启动。",
+              "sources": [
+                "htNj"
+              ],
+              "certainty": "actual"
+            },
+            {
+              "date": "2028年",
+              "sortDate": "2028-01-01",
+              "phase": "建成",
+              "text": "启动时披露二期整体建设完成目标。",
+              "sources": [
+                "htNj"
+              ],
+              "certainty": "planned"
+            }
+          ],
+          "sources": [
+            "htNj"
+          ]
+        }
+      ],
+      "source": {
+        "name": "公司公告、交易所、公司官网及地方政府文件",
+        "description": "按公司×城市整理基地、同城厂群和扩产项目，记录可能重叠。原始数字保留披露单位，集团合计单列。",
+        "links": [
+          {
+            "label": "中芯国际 2026Q2 业绩公告",
+            "url": "https://database.comein.cn/original-data/pdf/documentsAnnouncement/400d33fca9e124930f7d8be2c5a5c10e.PDF"
+          },
+          {
+            "label": "华虹宏力 2026Q3 业绩公告",
+            "url": "https://database.comein.cn/original-data/pdf/documentsAnnouncement_rt/5ed51c683d2eee531be2536fd6c6e9cd.pdf"
+          },
+          {
+            "label": "华虹集团 · 集成电路制造",
+            "url": "https://www.huahong.com.cn/?id=9&m=channel"
+          },
+          {
+            "label": "华虹无锡二期建成投片",
+            "url": "https://www.huahong.com.cn/?id=1538&m=detail"
+          },
+          {
+            "label": "华虹宏力重组问询回复 · 可比项目",
+            "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-05-30/688347_20260530_5TA0.pdf#page=124"
+          },
+          {
+            "label": "晶合集成 · 四期启动公告",
+            "url": "https://www.nexchip.com.cn/zh-cn/News/News?id=928283893402963968"
+          },
+          {
+            "label": "晶合集成 · 发展历程",
+            "url": "https://www.nexchip.com.cn/zh-cn/About/Introduce"
+          },
+          {
+            "label": "芯联集成 · 2026Q3 经营更新",
+            "url": "https://cn.unt-c.com/news/143"
+          },
+          {
+            "label": "芯联集成 2026 半年报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466534.PDF"
+          },
+          {
+            "label": "芯联集成 · 四期公告",
+            "url": "https://cn.unt-c.com/news/138"
+          },
+          {
+            "label": "华润微 2026 半年报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225497330.PDF"
+          },
+          {
+            "label": "华润微 · 发展历程",
+            "url": "https://www.crmicro.com/devHistory/"
+          },
+          {
+            "label": "粤芯半导体 · 上市保荐书",
+            "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-09-15/c66c28ff-e49b-4782-8106-b14a831adb11.PDF"
+          },
+          {
+            "label": "广州市科技局 · 粤芯一至三期",
+            "url": "https://kjj.gz.gov.cn/xwlb/yw/content/post_10175948.html"
+          },
+          {
+            "label": "北京电控 2026 年债券募集说明书",
+            "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-04-22/245099_20260422_FZFW.pdf"
+          },
+          {
+            "label": "燕东微 · 定增问询回复",
+            "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202505/688172_20250516_N829.pdf"
+          },
+          {
+            "label": "燕东微 · 企业介绍",
+            "url": "https://www.ydme.com/about/"
+          },
+          {
+            "label": "通富微电 · 七大生产基地",
+            "url": "https://www.tfme.com/product/66/"
+          },
+          {
+            "label": "通富微电 2025 年报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF#page=19"
+          },
+          {
+            "label": "通富微电 · 封测产能提升项目环评",
+            "url": "https://www.tfme.com/news_detail/16.html"
+          },
+          {
+            "label": "长电科技 · 全球布局（ESG 报告）",
+            "url": "https://www.jcetglobal.com/uploads/2024%26e5%26b9%26b4%26e9%2695%26bf%26e7%2694%26b5%26e7%26a7%2691%26e6%268a%2680ESG%26e6%268a%26a5%26e5%2691%268a.pdf"
+          },
+          {
+            "label": "长电科技 2025 年报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-04-10/1225091498.PDF#page=16"
+          },
+          {
+            "label": "长电科技 2026 半年报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225487900.PDF#page=10"
+          },
+          {
+            "label": "长电科技 2026 三季报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225617213.PDF#page=4"
+          },
+          {
+            "label": "华天科技 · 企业介绍",
+            "url": "https://www.ht-tech.com/html/about/index.html"
+          },
+          {
+            "label": "华天科技 2025 年报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225059982.PDF#page=17"
+          },
+          {
+            "label": "华天科技 · 南京二期二阶段投资公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-05-23/1225325134.PDF"
+          },
+          {
+            "label": "Unisem · 2025 综合年报",
+            "url": "https://www.unisemgroup.com/wp-content/uploads/2026/03/Unisem-M-Berhad-IAR2025.pdf"
+          },
+          {
+            "label": "甬矽电子 · 公司简介",
+            "url": "https://www.forehope-elec.com/lists/3.html"
+          },
+          {
+            "label": "甬矽电子 2025 年报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-04-21/1225130241.PDF#page=31"
+          },
+          {
+            "label": "甬矽电子 · 可转债审核问询回复",
+            "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202412/688362_20241226_UJX3.pdf"
+          },
+          {
+            "label": "盛合晶微 · 招股说明书",
+            "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/002104_20260225_OHOK.pdf"
+          },
+          {
+            "label": "晶方科技 2025 年报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-02-28/1224989090.PDF"
+          },
+          {
+            "label": "北京经开区 · 中芯京城开工及一期规划",
+            "url": "https://kfqgw.beijing.gov.cn/zwgkkfq/ztzl/lqztkfq/lqzx/zxxx/202102/t20210223_2843722.html"
+          },
+          {
+            "label": "北京经开区 2023 年度工作报告 · 中芯京城投产",
+            "url": "https://kfqgw.beijing.gov.cn/zwgkkfq/ghjh/zfgzbg/202402/t20240205_3556996.html"
+          },
+          {
+            "label": "深圳市政府 · 中芯深圳 12 英寸项目规划",
+            "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/mpost_8634681.html"
+          },
+          {
+            "label": "深圳 2022 年计划执行报告 · 中芯 12 英寸线投产",
+            "url": "https://www.sz.gov.cn/zfgb/2023/gb1278/content/post_10484082.html"
+          },
+          {
+            "label": "上海临港管委会 · 中芯临港一期方案调整",
+            "url": "https://www.lingang.gov.cn/html/website/lg/index/government/gonggaogongshi/guihuagongshi/1883346289701220354.html"
+          },
+          {
+            "label": "华虹无锡一期建成投片",
+            "url": "https://www.huahong.com.cn/?id=507&m=detail"
+          },
+          {
+            "label": "华虹无锡二期项目开工",
+            "url": "https://www.huahong.com.cn/?id=1495&m=detail"
+          },
+          {
+            "label": "晶合集成 · 一厂试产历程",
+            "url": "https://www.nexchip.com.cn/zh-tw/News/News?id=33"
+          },
+          {
+            "label": "晶合集成 · 四期建设主体进度",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225660492.PDF"
+          },
+          {
+            "label": "广州市科技局 · 粤芯四期启动",
+            "url": "https://kjj.gz.gov.cn/xwlb/yw/content/post_10659513.html"
+          },
+          {
+            "label": "燕东微 2025 年报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225238474.PDF"
+          },
+          {
+            "label": "燕东微 · 北电集成设备搬入",
+            "url": "https://www.ydme.com/news/158.html"
+          },
+          {
+            "label": "长电科技 · 临港 78 亿元项目投资公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-06-25/1225386392.PDF"
+          },
+          {
+            "label": "无锡市政府 · 江阴长电晶圆级项目及高密度 3D 项目进度",
+            "url": "https://www.wuxi.gov.cn/doc/2026/07/07/4800708.shtml"
+          },
+          {
+            "label": "江阴高新区 · 长电先进倒装项目环评批复",
+            "url": "https://www.jiangyin.gov.cn/doc/2025/10/27/1361907.shtml"
+          },
+          {
+            "label": "南京市政府 · 华天一期投产、二期启动及规划",
+            "url": "https://www.nanjing.gov.cn/zgnjsjb/jrtt/202403/t20240329_4198236.html"
+          },
+          {
+            "label": "南京市政府 · 华天南京 2025 年产值",
+            "url": "https://www.nanjing.gov.cn/zzb/dzld/swld/lwd/202603/t20260321_5809837.html"
+          },
+          {
+            "label": "甬矽电子 · 二期厂区建设进度及募投关系",
+            "url": "https://static.cninfo.com.cn/finalpage/2025-03-13/1222777718.PDF#page=20"
+          },
+          {
+            "label": "盛合晶微 2026 半年报",
+            "url": "https://database.comein.cn/original-data/pdf/documentsAnnouncement/004d9d1504c77987db0e127d116d3e46.pdf"
+          },
+          {
+            "label": "广州市科技局 · 粤芯一期量产",
+            "url": "https://kjj.gz.gov.cn/xwlb/yw/content/post_2684101.html"
+          }
+        ],
+        "metricDefinitions": [
+          {
+            "label": "城市整体研究值",
+            "definition": "每组公司×城市独立记录，以注明口径的地区基准预填并允许修改。集团和分期数字不自动分摊或相加。"
+          },
+          {
+            "label": "基地／项目数",
+            "definition": "当前筛选命中的记录数，包括厂群和下辖分期，不等于独立厂数。"
+          }
+        ]
+      }
+    },
+    "companyMetrics": {
+      "rows": [
+        {
+          "company": "中芯国际",
+          "industry": "Fab",
+          "kind": "披露产能",
+          "value": "109.65 万片/月",
+          "period": "2026Q2",
+          "note": "折合 8 英寸标准逻辑，集团月产能",
+          "sources": [
+            "smic"
+          ]
+        },
+        {
+          "company": "华虹宏力",
+          "industry": "Fab",
+          "kind": "披露产能",
+          "value": "63.6 万片/月",
+          "period": "2026Q3 期末",
+          "note": "折合 8 英寸晶圆，公告列示合并口径",
+          "sources": [
+            "hh"
+          ]
+        },
+        {
+          "company": "晶合集成",
+          "industry": "Fab",
+          "kind": "披露产能",
+          "value": "突破 10 万片/月",
+          "period": "2022-03 历史节点",
+          "note": "12 英寸；官网历史记录",
+          "sources": [
+            "nexBio"
+          ]
+        },
+        {
+          "company": "芯联集成",
+          "industry": "Fab",
+          "kind": "披露产能",
+          "value": "5 万片/月",
+          "period": "2026Q3 经营更新",
+          "note": "12 英寸基数，后续提升目标 7–8 万片/月",
+          "sources": [
+            "unt"
+          ]
+        },
+        {
+          "company": "芯联集成",
+          "industry": "Fab",
+          "kind": "实际产量",
+          "value": "148 万片",
+          "period": "2026H1",
+          "note": "集团上半年生产量，折合 8 英寸",
+          "sources": [
+            "untH1"
+          ]
+        },
+        {
+          "company": "华润微",
+          "industry": "Fab",
+          "kind": "披露产能",
+          "value": "约 23 万片/月",
+          "period": "2026H1",
+          "note": "6 英寸公司口径",
+          "sources": [
+            "cr"
+          ]
+        },
+        {
+          "company": "华润微",
+          "industry": "Fab",
+          "kind": "披露产能",
+          "value": "约 14 万片/月",
+          "period": "2026H1",
+          "note": "8 英寸公司口径",
+          "sources": [
+            "cr"
+          ]
+        },
+        {
+          "company": "粤芯半导体",
+          "industry": "Fab",
+          "kind": "披露产能",
+          "value": "6.33 万片/月",
+          "period": "2025 年末",
+          "note": "12 英寸，一至三期已实现月产能",
+          "sources": [
+            "can"
+          ]
+        },
+        {
+          "company": "通富微电",
+          "industry": "封测",
+          "kind": "实际产量",
+          "value": "459.06 亿块",
+          "period": "2025 全年",
+          "note": "集成电路封装测试生产量",
+          "sources": [
+            "tfA"
+          ]
+        },
+        {
+          "company": "长电科技",
+          "industry": "封测",
+          "kind": "实际产量",
+          "value": "182.76 亿颗",
+          "period": "2025 全年",
+          "note": "先进封装",
+          "sources": [
+            "jcA"
+          ]
+        },
+        {
+          "company": "长电科技",
+          "industry": "封测",
+          "kind": "实际产量",
+          "value": "388.80 亿颗",
+          "period": "2025 全年",
+          "note": "传统封装",
+          "sources": [
+            "jcA"
+          ]
+        },
+        {
+          "company": "长电科技",
+          "industry": "封测",
+          "kind": "实际产量",
+          "value": "91.68 亿颗",
+          "period": "2025 全年",
+          "note": "测试，单列",
+          "sources": [
+            "jcA"
+          ]
+        },
+        {
+          "company": "华天科技",
+          "industry": "封测",
+          "kind": "实际产量",
+          "value": "628.80 亿只",
+          "period": "2025 全年",
+          "note": "集成电路生产量（按只计）",
+          "sources": [
+            "htA"
+          ]
+        },
+        {
+          "company": "华天科技",
+          "industry": "封测",
+          "kind": "实际产量",
+          "value": "211.99 万片",
+          "period": "2025 全年",
+          "note": "集成电路生产量（按晶圆片计）",
+          "sources": [
+            "htA"
+          ]
+        },
+        {
+          "company": "甬矽电子",
+          "industry": "封测",
+          "kind": "实际产量",
+          "value": "65.52 亿颗",
+          "period": "2025 全年",
+          "note": "集成电路封装测试生产量（按颗计）",
+          "sources": [
+            "fhA"
+          ]
+        },
+        {
+          "company": "甬矽电子",
+          "industry": "封测",
+          "kind": "实际产量",
+          "value": "30.93 万片",
+          "period": "2025 全年",
+          "note": "晶圆级封测生产量",
+          "sources": [
+            "fhA"
+          ]
+        }
+      ],
+      "source": {
+        "name": "公司公告、交易所、公司官网及地方政府文件",
+        "description": "按公司×城市整理基地、同城厂群和扩产项目，记录可能重叠。原始数字保留披露单位，集团合计单列。",
+        "links": [
+          {
+            "label": "中芯国际 2026Q2 业绩公告",
+            "url": "https://database.comein.cn/original-data/pdf/documentsAnnouncement/400d33fca9e124930f7d8be2c5a5c10e.PDF"
+          },
+          {
+            "label": "华虹宏力 2026Q3 业绩公告",
+            "url": "https://database.comein.cn/original-data/pdf/documentsAnnouncement_rt/5ed51c683d2eee531be2536fd6c6e9cd.pdf"
+          },
+          {
+            "label": "华虹集团 · 集成电路制造",
+            "url": "https://www.huahong.com.cn/?id=9&m=channel"
+          },
+          {
+            "label": "华虹无锡二期建成投片",
+            "url": "https://www.huahong.com.cn/?id=1538&m=detail"
+          },
+          {
+            "label": "华虹宏力重组问询回复 · 可比项目",
+            "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-05-30/688347_20260530_5TA0.pdf#page=124"
+          },
+          {
+            "label": "晶合集成 · 四期启动公告",
+            "url": "https://www.nexchip.com.cn/zh-cn/News/News?id=928283893402963968"
+          },
+          {
+            "label": "晶合集成 · 发展历程",
+            "url": "https://www.nexchip.com.cn/zh-cn/About/Introduce"
+          },
+          {
+            "label": "芯联集成 · 2026Q3 经营更新",
+            "url": "https://cn.unt-c.com/news/143"
+          },
+          {
+            "label": "芯联集成 2026 半年报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-08-11/1225466534.PDF"
+          },
+          {
+            "label": "芯联集成 · 四期公告",
+            "url": "https://cn.unt-c.com/news/138"
+          },
+          {
+            "label": "华润微 2026 半年报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225497330.PDF"
+          },
+          {
+            "label": "华润微 · 发展历程",
+            "url": "https://www.crmicro.com/devHistory/"
+          },
+          {
+            "label": "粤芯半导体 · 上市保荐书",
+            "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-09-15/c66c28ff-e49b-4782-8106-b14a831adb11.PDF"
+          },
+          {
+            "label": "广州市科技局 · 粤芯一至三期",
+            "url": "https://kjj.gz.gov.cn/xwlb/yw/content/post_10175948.html"
+          },
+          {
+            "label": "北京电控 2026 年债券募集说明书",
+            "url": "https://static.sse.com.cn/disclosure/bond/announcement/company/c/new/2026-04-22/245099_20260422_FZFW.pdf"
+          },
+          {
+            "label": "燕东微 · 定增问询回复",
+            "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202505/688172_20250516_N829.pdf"
+          },
+          {
+            "label": "燕东微 · 企业介绍",
+            "url": "https://www.ydme.com/about/"
+          },
+          {
+            "label": "通富微电 · 七大生产基地",
+            "url": "https://www.tfme.com/product/66/"
+          },
+          {
+            "label": "通富微电 2025 年报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225112762.PDF#page=19"
+          },
+          {
+            "label": "通富微电 · 封测产能提升项目环评",
+            "url": "https://www.tfme.com/news_detail/16.html"
+          },
+          {
+            "label": "长电科技 · 全球布局（ESG 报告）",
+            "url": "https://www.jcetglobal.com/uploads/2024%26e5%26b9%26b4%26e9%2695%26bf%26e7%2694%26b5%26e7%26a7%2691%26e6%268a%2680ESG%26e6%268a%26a5%26e5%2691%268a.pdf"
+          },
+          {
+            "label": "长电科技 2025 年报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-04-10/1225091498.PDF#page=16"
+          },
+          {
+            "label": "长电科技 2026 半年报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225487900.PDF#page=10"
+          },
+          {
+            "label": "长电科技 2026 三季报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-10-23/1225617213.PDF#page=4"
+          },
+          {
+            "label": "华天科技 · 企业介绍",
+            "url": "https://www.ht-tech.com/html/about/index.html"
+          },
+          {
+            "label": "华天科技 2025 年报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225059982.PDF#page=17"
+          },
+          {
+            "label": "华天科技 · 南京二期二阶段投资公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-05-23/1225325134.PDF"
+          },
+          {
+            "label": "Unisem · 2025 综合年报",
+            "url": "https://www.unisemgroup.com/wp-content/uploads/2026/03/Unisem-M-Berhad-IAR2025.pdf"
+          },
+          {
+            "label": "甬矽电子 · 公司简介",
+            "url": "https://www.forehope-elec.com/lists/3.html"
+          },
+          {
+            "label": "甬矽电子 2025 年报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-04-21/1225130241.PDF#page=31"
+          },
+          {
+            "label": "甬矽电子 · 可转债审核问询回复",
+            "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202412/688362_20241226_UJX3.pdf"
+          },
+          {
+            "label": "盛合晶微 · 招股说明书",
+            "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202602/002104_20260225_OHOK.pdf"
+          },
+          {
+            "label": "晶方科技 2025 年报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-02-28/1224989090.PDF"
+          },
+          {
+            "label": "北京经开区 · 中芯京城开工及一期规划",
+            "url": "https://kfqgw.beijing.gov.cn/zwgkkfq/ztzl/lqztkfq/lqzx/zxxx/202102/t20210223_2843722.html"
+          },
+          {
+            "label": "北京经开区 2023 年度工作报告 · 中芯京城投产",
+            "url": "https://kfqgw.beijing.gov.cn/zwgkkfq/ghjh/zfgzbg/202402/t20240205_3556996.html"
+          },
+          {
+            "label": "深圳市政府 · 中芯深圳 12 英寸项目规划",
+            "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/mpost_8634681.html"
+          },
+          {
+            "label": "深圳 2022 年计划执行报告 · 中芯 12 英寸线投产",
+            "url": "https://www.sz.gov.cn/zfgb/2023/gb1278/content/post_10484082.html"
+          },
+          {
+            "label": "上海临港管委会 · 中芯临港一期方案调整",
+            "url": "https://www.lingang.gov.cn/html/website/lg/index/government/gonggaogongshi/guihuagongshi/1883346289701220354.html"
+          },
+          {
+            "label": "华虹无锡一期建成投片",
+            "url": "https://www.huahong.com.cn/?id=507&m=detail"
+          },
+          {
+            "label": "华虹无锡二期项目开工",
+            "url": "https://www.huahong.com.cn/?id=1495&m=detail"
+          },
+          {
+            "label": "晶合集成 · 一厂试产历程",
+            "url": "https://www.nexchip.com.cn/zh-tw/News/News?id=33"
+          },
+          {
+            "label": "晶合集成 · 四期建设主体进度",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-11-06/1225660492.PDF"
+          },
+          {
+            "label": "广州市科技局 · 粤芯四期启动",
+            "url": "https://kjj.gz.gov.cn/xwlb/yw/content/post_10659513.html"
+          },
+          {
+            "label": "燕东微 2025 年报",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225238474.PDF"
+          },
+          {
+            "label": "燕东微 · 北电集成设备搬入",
+            "url": "https://www.ydme.com/news/158.html"
+          },
+          {
+            "label": "长电科技 · 临港 78 亿元项目投资公告",
+            "url": "https://static.cninfo.com.cn/finalpage/2026-06-25/1225386392.PDF"
+          },
+          {
+            "label": "无锡市政府 · 江阴长电晶圆级项目及高密度 3D 项目进度",
+            "url": "https://www.wuxi.gov.cn/doc/2026/07/07/4800708.shtml"
+          },
+          {
+            "label": "江阴高新区 · 长电先进倒装项目环评批复",
+            "url": "https://www.jiangyin.gov.cn/doc/2025/10/27/1361907.shtml"
+          },
+          {
+            "label": "南京市政府 · 华天一期投产、二期启动及规划",
+            "url": "https://www.nanjing.gov.cn/zgnjsjb/jrtt/202403/t20240329_4198236.html"
+          },
+          {
+            "label": "南京市政府 · 华天南京 2025 年产值",
+            "url": "https://www.nanjing.gov.cn/zzb/dzld/swld/lwd/202603/t20260321_5809837.html"
+          },
+          {
+            "label": "甬矽电子 · 二期厂区建设进度及募投关系",
+            "url": "https://static.cninfo.com.cn/finalpage/2025-03-13/1222777718.PDF#page=20"
+          },
+          {
+            "label": "盛合晶微 2026 半年报",
+            "url": "https://database.comein.cn/original-data/pdf/documentsAnnouncement/004d9d1504c77987db0e127d116d3e46.pdf"
+          },
+          {
+            "label": "广州市科技局 · 粤芯一期量产",
+            "url": "https://kjj.gz.gov.cn/xwlb/yw/content/post_2684101.html"
+          }
+        ],
+        "metricDefinitions": [
+          {
+            "label": "城市整体研究值",
+            "definition": "每组公司×城市独立记录，以注明口径的地区基准预填并允许修改。集团和分期数字不自动分摊或相加。"
+          },
+          {
+            "label": "基地／项目数",
+            "definition": "当前筛选命中的记录数，包括厂群和下辖分期，不等于独立厂数。"
+          }
+        ]
+      }
+    }
+  }
+}
