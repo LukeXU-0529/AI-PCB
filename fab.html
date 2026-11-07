@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Fab 与封测 · 产能地图</title>
+  <link rel="stylesheet" href="fab.css">
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <div>
+        <p class="eyebrow">半导体制造 · 基地与项目</p>
+        <h1>Fab 与封测产能地图</h1>
+        <p class="intro">从晶圆制造到封装测试，按城市查看厂区布局、产能口径和扩产进度。</p>
+      </div>
+      <dl class="summary" id="summary" aria-label="当前筛选覆盖范围"></dl>
+    </header>
+
+    <section class="filters" aria-label="筛选基地与项目">
+      <div class="segments" id="segments" role="group" aria-label="生产环节">
+        <button type="button" value="" aria-pressed="true">全部</button>
+        <button type="button" value="fab" aria-pressed="false">晶圆制造</button>
+        <button type="button" value="osat" aria-pressed="false">封装测试</button>
+      </div>
+      <label>企业<select id="company"></select></label>
+      <label>项目状态<select id="status"></select></label>
+      <label class="search">搜索<input id="search" type="search" placeholder="城市、厂区或工艺"></label>
+    </section>
+
+    <section class="map-layout" aria-label="生产基地分布">
+      <div class="panel map-panel">
+        <div class="panel-heading">
+          <div><h2>生产布局</h2><p>点击城市查看厂区。圆内数字为当前筛选的记录数。</p></div>
+          <div class="legend"><span class="fab">晶圆制造</span><span class="osat">封装测试</span><span class="mixed">两者均有</span></div>
+        </div>
+        <svg id="map" viewBox="0 0 720 430" role="group" aria-label="中国生产基地城市分布">
+          <image href="china-outline.svg" width="720" height="430"></image>
+          <g id="markers"></g>
+        </svg>
+        <div class="overseas" id="overseas"></div>
+      </div>
+      <aside class="panel location-panel" aria-labelledby="location-heading">
+        <h2 id="location-heading">城市与项目</h2>
+        <label class="city-control">查看城市<select id="city"></select></label>
+        <div id="location" aria-live="polite"></div>
+      </aside>
+    </section>
+
+    <section class="panel reference" aria-labelledby="company-heading">
+      <div class="panel-heading"><div><h2 id="company-heading">公司口径</h2><p>集团或区域汇总单独列示。不同尺寸、单位及统计范围分别阅读。</p></div></div>
+      <div class="company-cards" id="company-metrics"></div>
+    </section>
+
+    <section class="panel inventory" aria-labelledby="inventory-heading">
+      <div class="panel-heading"><div><h2 id="inventory-heading">基地与项目明细</h2><p>设计产能、已披露产能与实际产量分列。披露日期与口径见各行。</p></div><span id="table-count" aria-live="polite"></span></div>
+      <div class="table-scroll" tabindex="0" aria-label="基地与项目明细表，可横向滚动">
+        <table>
+          <thead><tr><th scope="col">企业 / 环节</th><th scope="col">城市</th><th scope="col">基地或项目</th><th scope="col">工艺 / 产品</th><th scope="col">状态</th><th scope="col">产能或其他披露</th><th scope="col">来源</th></tr></thead>
+          <tbody id="sites"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer><span>资料核对至 2026-11-07</span><span>地图按城市中心定位。基地、同城多厂合并记录及扩产项目均计为记录，跨项目产能不加总。</span></footer>
+    <noscript>请启用 JavaScript 以使用地图筛选。</noscript>
+  </main>
+  <script type="module" src="fab.js"></script>
+</body>
+</html>
